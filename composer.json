@@ -1,10 +1,10 @@
 {
-    "name": "veikejin/address",
+    "name": "Veikejin/address",
     "description": "veikejin Address Package",
     "type": "library",
-    "require": {
-        "veikejin/area": "~1.0.0"
-    },
+//    "require": {
+//        "Veikejin/area": "~1.0.0"
+//    },
     "authors": [
         {
             "name": "33",
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "veikejin\\Address\\": "src/"
+            "Veikejin\\Address\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "veikejin\\Address\\AddressServiceProvider"
+                "Veikejin\\Address\\AddressServiceProvider"
             ]
         }
     }
