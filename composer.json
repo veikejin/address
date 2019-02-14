@@ -2,9 +2,9 @@
     "name": "Veikejin/address",
     "description": "veikejin Address Package",
     "type": "library",
-//    "require": {
-//        "Veikejin/area": "~1.0.0"
-//    },
+    "require": {
+        "Veikejin/area": "~1.0.0"
+    },
     "authors": [
         {
             "name": "33",
