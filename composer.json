@@ -1,0 +1,29 @@
+{
+    "name": "veikejin/address",
+    "description": "veikejin Address Package",
+    "type": "library",
+    "require": {
+        "veikejin/area": "~1.0.0"
+    },
+    "authors": [
+        {
+            "name": "33",
+            "email": "33@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "veikejin\\Address\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "veikejin\\Address\\AddressServiceProvider"
+            ]
+        }
+    }
+}
